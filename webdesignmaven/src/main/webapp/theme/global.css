@@ -1,0 +1,2400 @@
+/*
+    Truven Health colors:
+    
+    Light Blue: #0072CE
+    Purple: #5C068C
+    Dark Blue: #2E008B
+    Grey: #25282A
+*/
+
+html
+{
+	min-height: 100%;
+	min-width: 100%;
+	background-color: #EFEFF0;
+}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,a
+{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+
+fieldset,img
+{
+	border: 0;
+}
+
+del,ins
+{
+	text-decoration: none;
+}
+
+li
+{
+    margin-left:15px;
+    margin-bottom:10px;
+    list-style-image: url(../images/li_bullet.png);
+}
+
+caption,th
+{
+	text-align: left;
+}
+
+h1 {font: 26px Arial, Helvetica, sans-serif; color:#5c068c; margin: 0 0 30px 0; padding-bottom:5px;}
+
+h2 {font: 24px Arial, Helvetica, sans-serif; color:#25282a; margin: 10px 0 5px 0; padding-bottom:5px;}
+
+h3 {font: bold 19px Arial, Helvetica, sans-serif; color:#25282a; margin: 30px 0 5px 0; padding-bottom:0;}
+
+h4 {font: italic 19px Arial, Helvetica, sans-serif; color:#25282a; margin: 30px 0 5px 0; padding-bottom:0;}
+
+h5 {font: bold 16px Arial, Helvetica, sans-serif; color:#5c068c; margin: 0 0 5px 0; padding-bottom:0;}
+
+h6 {font: italic 16px Arial, Helvetica, sans-serif; color:#5c068c; margin: 0 0 5px 0; padding-bottom:0;}
+
+h7 {font: 11px Arial, Helvetica, sans-serif; margin: 0 0 5px 0; padding-bottom:0;}
+
+input,button,textarea,select,optgroup,option
+{
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+body
+{
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	color:#25282A;
+	text-align: left;
+	font-size: 12px;
+	line-height: 1.5;
+	padding-top: 23px;
+	padding-bottom: 25px;
+}
+
+p {font: 12px Arial, Helvetica, sans-serif; color:#25282a; line-height: 1.5; margin: 0 0 5px 0; padding-bottom:11px;}
+
+a {font: 12px Arial, Helvetica, sans-serif; color:#0072CE; text-decoration:none;}
+
+a:link {font: 12px Arial, Helvetica, sans-serif; color:#0072CE; text-decoration:none;}
+
+a:hover{font: 12px Arial, Helvetica, sans-serif; color:#0072CE; text-decoration: none; border-bottom:1px dotted;}
+
+
+/*#sixtySixText a:hover,#thirtyThreeCollateral a:hover{font: 12px Arial, Helvetica, sans-serif; color:#0072CE; text-decoration: none; 
+border-bottom:1px dotted;}*/
+
+a:visited {font: 12px Arial, Helvetica, sans-serif; color:#0072CE; text-decoration:none;}
+
+.normal_text
+{
+	color: #000000;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: 1.2;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+	vertical-align: 0px;
+}
+
+.Primary-body-text
+{
+	color: #25282A;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Rev-Topic-header
+{
+	color: #FFFFFF;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 11px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Issues-header
+{
+	color: #2E008B;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Issues-links
+{
+	color: #0072CE;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Value-Prop
+{
+	color: #25282A;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Landing-page-headline
+{
+	color: #0072CE;
+	font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 28px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Primary-bold-body-text
+{
+	color: #25282A;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.Serif-subhead-PURPLE
+{
+	color: #5C068C;
+	font-family:Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.TabbedPanelsTab
+{
+	white-space: nowrap;
+}
+
+.MenuBar  .MenuBarView, .MenuBar  .SubMenuView /* Resets for ul and li in menus */
+{
+	display: block;
+	list-style: none;
+}
+
+.MenuBar .SubMenu
+{
+	display: none;
+	position: absolute;
+}
+
+.NoWrap
+{
+	white-space: nowrap;
+	/* word-wrap: normal; */
+}
+
+.MenuBar .MenuItemContainer
+{
+	position: relative;
+}
+
+.rootelem /* the root of the artwork tree */
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.colelem /* a child element of a column */
+{
+	display: inline;
+	float: left;
+	clear: both;
+}
+
+.grpelem /* a child element of a group */
+{
+	display: inline;
+	float: left;
+}
+
+.clearfix:after /* force a container to fit around floated items */
+{
+	content: "\0020";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+*:first-child+html .clearfix /* IE7 */
+{
+	zoom: 1;
+}
+
+.inclusion_context /* context for positioning a group of elements that share the same height */
+{
+	display: table;
+	table-layout: fixed;
+	width: 0.01px;
+}
+
+.inclelem /* element of an inclusion context */
+{
+	display: table-cell;
+	vertical-align: top;
+}
+
+.popup_anchor /* anchors an abspos popup */
+{
+	position: relative;
+	width: 0px;
+	height: 0px;
+}
+
+.popup_element
+{
+	z-index: 100000;
+}
+
+.pointer_cursor
+{
+	cursor: pointer;
+}
+
+span.wrap /* used to force wrap after floated array when nested inside a paragraph */
+{
+	content: '';
+	clear: left;
+	display: block;
+}
+
+span.actAsInlineDiv /* used to simulate a DIV with inline display when already nested inside a paragraph */
+{
+	display: inline-block;
+}
+
+.position_content,.excludeFromNormalFlow /* used when child content is larger than parent */
+{
+	float: left;
+}
+
+.preload_images /* used to preload images used in non-defaul states */
+{
+	position: absolute;
+	overflow: hidden;
+	left: -9999px;
+	top: -9999px;
+	height: 1px;
+	width: 1px;
+}
+
+preload /* used to specifiy the dimension of preload item */
+{
+	height: 1px;
+	width: 1px;
+}
+
+.animateStates
+{
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	/*transition: 0.3s ease-in-out;*/
+}
+
+.anchor_item /* used to specify anchor properties */
+{
+	width: 22px;
+	height: 18px;
+}
+
+.MenuBar .SubMenuVisible, .MenuBarVertical .SubMenuVisible, .MenuBar .SubMenu .SubMenuVisible,.popup_element.Active,span.actAsPara,.actAsDiv,a.nonblock.nontext
+{
+	display: block;
+}
+
+.popup_element.Inactive,.js .disn
+{
+	display: none;
+}
+
+.widget_invisible,.js .invi /* used to hide the widget before loaded */
+{
+	visibility: hidden;
+}
+
+#page
+{
+	width: 968px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:25px;
+}
+
+.topBorder
+{
+	width: 968px;
+	background-image: url("../images/page-sprite2.png");
+	overflow: hidden;
+	height: 4px;
+	background-position: left top;
+}
+
+.middleBorder
+{
+	background-image: url("../images/page-sprite2.png");
+	overflow: visible;
+	background-position: -968px top;
+	width: 968px;
+	float:left;
+}
+
+.bottomBorder
+{
+}
+
+.bottomBorderPadding 
+{
+	height:25px;
+}
+/*
+#logo
+{
+	width: 420px;
+}
+*/
+#searchBox
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #BBBCBD;
+	position: absolute;
+	height:41px;
+	width: 215px;
+	padding-bottom: 5px;
+	left: 640px;
+	float:left;
+}
+
+#contactBox
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #0072CE;
+	position: absolute;
+	width: 76px;
+	padding-bottom: 1px;
+	margin-right: -76px;
+	left: 857px;
+	height:45px;
+}
+
+#contactBox a
+{
+	color:#FFFFFF;
+}
+
+#contactBoxContent
+{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 10px;
+	position: relative;
+	width: 61px;
+	min-height: 12px;
+	margin-right: -61px;
+	margin-top: 23px;
+	left: 7px;
+}
+
+#googleSearch 
+{
+	padding-top:14px;
+	padding-left:5px;
+}
+
+#taglineBorder
+{
+	width: 0.01px;
+	margin-left: 24px;
+	margin-bottom: -2px;
+	position: relative;
+	z-index:9000;
+}
+
+#tagline p
+{
+	color: #7F7F7F;
+	font-size: 11px;
+	font-style: italic;
+	position: relative;
+	width:300px;
+}
+
+#tagline2 p
+{
+	color: #2E008B;
+	font-size: 17px;
+	font-weight:bold;
+	position: relative;
+	width:300px;
+}
+
+.headerNav
+{
+	width: 920px;
+	margin-top: 30px;
+	position: relative;	
+}
+
+#googleSearchBox 
+{
+	width:195px;
+	height:17px;
+	padding-left:5px;
+	padding-top:5px;
+	color:#6F6F6F;
+}
+
+#googleSearchBox:focus 
+{
+	outline: 0;
+	outline:#0072CE solid 1px;
+}
+
+#googleSubmitButton 
+{
+	border:none;
+	top:-20px;
+	left:180px;
+	position:relative;
+}
+
+/* main DIV (overall container for navigation) */
+#main
+	{width:100%; margin:15px auto 0px auto; position:relative; padding-top: 20px;}
+	
+/* appbucket DIV (secondary container for navigation - to control layout) */
+/* This container is set as a fixed width of 1024 px wide, update to width:100% to float the nav*/
+#appbucket 
+	{border:1px solid #ffffff; background:#ffffff; height:1%; overflow:hidden; padding:0; min-height:350px; width:1024px; clear:both;}
+
+/* header DIV (tertiary container for navigation - to control margin and padding) */	
+#header
+	{margin-top:30px !important; padding-top:0px !important; background:#ffffff;}
+
+/* HTML5 nav element + headerNav DIV for rendering in older browsers */	
+nav, .headerNav
+	{clear:both; margin-top:0px; border-bottom:4px solid #0072CE; height:36px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif;  font-size:13px; text-align: left; line-height: 1.2; word-wrap: break-word; text-rendering: optimizeLegibility;}
+
+/* navTab DIV */	
+.navTab 
+	{color: #25282a; height:auto; width:100%; float:left; text-decoration:none; border-right: 1px solid #bababa; !important;}
+
+/* navLink DIV */		 
+.navLink
+	{padding:0 13px; margin-top:12px; color:#25282a; text-decoration:none !important; font-size:13px; font-weight: normal;}
+
+/* navLink hover treatment*/	
+.navLink:hover, .navLastLink 
+	{padding:0 13px; margin-top:12px; color:#25282a; text-decoration:none !important; font-size:13px; font-weight: normal;}
+
+/* navTab hover treatment*/
+.navTab:hover
+	{color:#fff; text-decoration:none;!important;
+	background: #4096db; /* Old browsers */
+	/* IE9 - must have SVG to render gradient background treatment */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNzJjZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzQwOTZkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDcyY2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #4096db 0%, #4096db 50%, #0072ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0072ce), color-stop(50%,#4096db), color-stop(100%,#4096db)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4096db 0%,#4096db 50%,#0072ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4096db 0%,#4096db 50%,#0072ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4096db 0%,#4096db 50%,#0072ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4096db 0%,#4096db 50%,#0072ce 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096db', endColorstr='#4096db',GradientType=0 ); /* IE6-8 */
+	}
+
+/* navTab + navLink text decoration treatment*/
+.navTab:hover .navLink, .navTab:hover .navLastLink
+	{color:#fff; text-decoration:none; !important;}
+
+/* navTabSelected + navTabSelected hover treatment*/
+.navTabSelected, .navTabSelected:hover 
+	{color:#fff; font-weight:bold; !important;
+	background: #0061af; /* Old browsers */
+	/* IE9 - must have SVG to render gradient background treatment */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNjFhZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzAwNzJjZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDcyY2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #0061af 0%, #0072ce 50%, #0072ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0061af), color-stop(50%,#0072ce), color-stop(100%,#0072ce)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0061af 0%,#0072ce 50%,#0072ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0061af 0%,#0072ce 50%,#0072ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0061af 0%,#0072ce 50%,#0072ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #0061af 0%,#0072ce 50%,#0072ce 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0061af', endColorstr='#0072ce',GradientType=0 ); /* IE6-8 */
+		}
+
+/* navTabSelected + navLink text treatment*/	
+.navTabSelected .navLink 
+	{color:#ffffff; font-weight:normal; border-right:none !important;}
+
+/* navigation DIV (container for ul and li elements)*/
+#navigation
+	{clear:both; margin-top:0px; border-bottom:4px solid #0072CE; height:36px;
+	background: #f2f2f2; /* Old browsers */
+	/* IE9 - must have SVG to render gradient background treatment */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZDFkMWQxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  #f2f2f2 50%, #d1d1d1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#f2f2f2), color-stop(100%,#d1d1d1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 50%,#d1d1d1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 50%,#d1d1d1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 50%,#d1d1d1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f2f2 50%,#d1d1d1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#d1d1d1',GradientType=0 ); /* IE6-8 */ 
+	}
+
+/* navigation ul element (ul holds all menu items in li list)*/
+#navigation ul
+	{margin:0px; padding:0px;}
+
+/* navigation li element contained within ul*/
+#navigation ul li
+	{display:inline; float:left; height:36px; line-height:36px; list-style:none; position:relative; margin-left:0; }
+
+/* navigation navLink DIV + li element contained within ul*/
+#navigation ul li.navLink
+	{display:inline; float:left; height:36px; line-height:36px; list-style:none; position:relative;}
+
+/* navigation li element link treatment*/
+#navigation li a
+	{color:#ffffff; text-decoration:none !important; padding-top:10px; height:26px; width: 100% !important;}
+
+/* navigation li element hover treatment*/
+#navigation li a:hover
+	{text-decoration:none !important;}
+
+/* Drop Down Items Styles */
+
+/* drop down menu a element treatment */
+.dropdown a {margin:0; display:block; float:left; width:auto; height:auto; white-space:nowrap; font:13px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-decoration:none; text-align:center; color:#293d6b;}
+
+/* ul treatment */
+/* drop down menu ul positioning treatment */
+.dropdown ul ul.dropdownul {position:absolute; left:-9999px; top:-9999px; width:auto; height:auto; background:#5C5E60;}
+
+/* drop down menu ul a treatment */
+.dropdown ul ul.dropdownul a {text-indent: 10px; width: auto !important; margin-right:25px; font:12px Arial, Helvetica Neue, Helvetica, sans-serif; text-decoration:none; text-align:left; color:#293d6b; display:inline; height:36px; list-style:none; position:relative;}
+
+/* drop down menu ul a:hover treatment */
+.dropdown ul ul.dropdownul a:hover {background-color: #0072CE; width:100% !important;}
+
+/* drop down menu ul placement relative to top nav */
+.dropdown ul :hover ul {left:0px; top:36px;}
+
+/* li treatment */
+/* drop down li items border treatment */
+.dropdown ul li.dropdownli {float:left; margin:0; width:100%; height:30px; border-bottom: 1px solid #bababa !important; border-bottom-width:100%;}
+
+#top1pxBar
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #2E008B;
+	position: relative;
+	width: 920px;
+	height: 1px;
+	top: 1px;
+	margin-top: -2px;
+	left: 0px;
+}
+
+#sixtySixSplit 
+{
+	width:73%;
+	position:relative;
+	float:left;
+}
+
+#sixtySixText 
+{
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+    width: 615px;
+    min-height:725px;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+
+#truvenBarsContainer 
+{
+	margin-bottom: 121px;
+    margin-top: 22px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#truvenBarOne 
+{
+	background-color: #0072CE;
+	height: 32px;
+    left: -49px;
+    position: relative;
+    width: 175px;
+}
+
+#truvenBarTwo
+{
+	background-color: #5C068C;
+	height: 32px;
+	left: -49px;
+	margin-top: 6px;
+    padding-bottom: 2px;
+    position: relative;
+    width: 282px;
+}
+
+#truvenBarThree 
+{
+	background-color: #2E008B;
+	height: 32px;
+	left: -49px;
+    margin-top: 5px;
+    padding-bottom: 2px;
+    position: relative;
+    width: 246px;
+}
+
+.truvenBarText 
+{
+	color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    left: 58px;
+    position: relative;
+    padding-top:6px;
+    text-transform:uppercase;
+}
+
+#miniBars 
+{
+	margin-left: -41px;
+    position: absolute;
+    width: 33px;
+}
+
+#miniBarOne 
+{
+	background-color: #0072CE;
+	height: 10px;
+    position: relative;
+    width: 28px;
+}
+
+#miniBarTwo 
+{
+	background-color: #5C068C;
+	height: 10px;
+    margin-top: 2px;
+    position: relative;
+    width: 33px;
+}
+
+#miniBarThree 
+{
+	background-color: #2E008B;
+	height: 10px;
+	margin-top: 2px;
+    position: relative;
+    width: 18px;
+}
+#subPageImageContainer 
+{
+	position: relative;
+    width: 650px;
+    height:250px;
+}
+
+.subPageLinks 
+{
+	font-size:16px;
+	font-weight:bold;
+}
+
+.subNavItem 
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-top: 1px solid #E9EAEA;
+}
+
+#thirtyThreeSplit 
+{
+	width:27%;
+	position:relative;
+	float:left;
+}
+
+#thirtyThreeSubMenu 
+{
+	margin-bottom:20px;
+}
+
+#thirtyThreeSubMenu #subAccordion ul
+{
+	list-style-type:none;
+    list-style-image:none;
+    margin-left:0;
+}
+
+#thirtyThreeSubMenu #subAccordion ul li 
+{
+	list-style-type:none;
+	list-style-image:none;
+    margin-left:0;
+}
+
+.subNavIcons 
+{
+	float:right;
+	padding-left:10px;
+}
+
+.verticalIconContainer 
+{
+	width:85px;
+	padding-left:155px;
+	text-align:center;
+}
+
+.subNavIconText 
+{
+}
+
+.collateralBlueBox 
+{
+	padding:4px 10px 4px 10px;
+	background-color:#2E008B;
+	color:#FFFFFF;
+	font-size:18px;
+	
+}
+
+.collateralBlueText 
+{
+	text-align:left;
+	min-height:65px;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+
+.collateralBlueText .icon 
+{
+	float:right;
+}
+
+.collateralBlueText p
+{
+	min-height:85px;
+}
+
+#bottom1pxBar
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #0072CE;
+	position: relative;
+	width: 913px;
+	height: 1px;
+	margin-left: 4px;
+}
+
+#bottomBarContainer
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #242729;	
+	position: relative;
+	width: 960px;	
+    height:31px;
+    padding-top:6px;
+}
+
+#bottomBarText 
+{
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left:12px;
+	position:relative;
+}
+
+#bottomBarLinks
+{
+	color:#FFFFFF;
+	padding-left:31px;
+}
+
+#bottomBarLinks a
+{
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#bottomBarLinks a:hover
+{
+	border-bottom:1px dotted;
+}
+
+#bottomBarIcons 
+{
+	top:4px;
+	position:relative;
+	padding-left:210px;
+}
+
+#bottomBarIcons a:hover
+{
+	border-bottom:0
+}
+
+
+#bottom1pxBar_600
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #0072CE;
+	position: relative;
+	width: 590px;
+	height: 1px;
+	margin-left: 2px;
+}
+
+#bottomBarContainer_600
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #242729;	
+	position: relative;
+	width: 600px;	
+    height:31px;
+    padding-top:6px;
+}
+
+
+#bottomBarText_600 
+{
+	font-size: 11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-left:2px;
+	position:relative;
+}
+
+
+
+#bottomBarLinks_600
+{
+	color:#FFFFFF;
+	padding-left:2px;
+}
+
+
+
+#bottomBarIcons_600 
+{
+
+	position:relative;
+	padding-left:510px;
+}
+
+#master-header
+{
+	width: 0.01px;
+	margin-left: 11px;
+	position: relative;
+}
+
+#master-header a:hover
+{
+	border-bottom:0
+}
+
+#contactBox a:hover
+{
+	border-bottom:1px dotted white;
+}
+
+#middleContent
+{
+	/*margin-left: -50px; */
+	position: relative;
+	width:960px;
+	margin-top:10px;
+	/* 2013-10-30 msobczak */
+	/*background-image: url("../images/blur-divider.png");*/
+    /*background-repeat:repeat-y;*/
+}
+
+#middleContentNoBack
+{
+	/*margin-left: -50px; */
+	position: relative;
+	width:960px;
+	margin-top:10px;
+}
+
+#headerLeftBox
+{
+	width: 35px;
+	height: 29px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #5C068C;
+	position: relative;
+	margin-left: -15px;
+	margin-top:10px;
+}
+
+#pageTitle
+{
+	width: 938px;
+	font-weight: bold;
+	position: relative;
+	margin-right: -938px;
+	left:5px;
+	margin-top:10px;
+}
+
+#imageBlurbPadding
+{
+	width: 0.01px;
+	margin-left: 26px;
+	margin-top: 6px;
+	position: relative;
+}
+
+#imageBlurb
+{
+	width: 294px;
+	min-height: 122px;
+	position: relative;
+	margin-right: -294px;
+	margin-top: 1px;
+}
+
+#imageContainer
+{
+	width: 605px;
+	position: relative;
+	margin-right: -605px;
+	left: 314px;
+
+}
+
+#middleContentPadding
+{
+	width: 0.01px;
+	margin-left: 24px;
+	position: relative;
+}
+
+.subheadPurple, .subheadPurple a {
+    color: #5C068C;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.heading1 {
+    color: #5C068C;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.heading2 {
+    color: #5C068C;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.heading3 {
+    color: #5C068C;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.heading4 {
+    color: #5C068C;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#master-footer
+{
+	width: 0.01px;
+	margin-left: 4px;
+	position: relative;
+}
+
+#icdTen 
+{
+	width:605px;
+    height:120px;
+    padding-top:20px;
+    border-bottom: 1px solid #BEBFBF;
+}
+
+
+#hundredTop 
+{
+	width:605px;
+    height:120px;
+
+    border-bottom: 1px solid #BEBFBF;
+}
+
+#advantageConf 
+{
+	width:605px;
+    height:120px;
+    padding-top:20px;
+    border-bottom: 1px solid #BEBFBF;
+}
+
+
+#newsRoom 
+{
+	width:605px;
+    height:120px;
+    padding-top:20px;
+    border-bottom: 1px solid #BEBFBF;
+}
+
+#fromOurBlog 
+{
+	width:605px;
+	height:120px;
+	padding-top:20px;
+	border-bottom: 1px solid #BEBFBF;
+}
+
+#tweetTicker 
+{
+	width:605px;
+	height:120px;
+	padding-top:20px;
+	border-bottom: 1px solid #BEBFBF;
+}
+
+#homeVideo 
+{
+	position:relative;
+	width:605px;
+	height:80px;
+	border-bottom: 1px solid #BEBFBF;
+}
+
+#legalMessage 
+{
+	position:relative;
+	padding-top:10px;
+}
+
+.subPageLinksContainer 
+{
+	height: 100px;
+}
+
+.subPageLinksContainerLong 
+{
+	height: 150px;
+}
+
+
+
+
+.smallLinkImage 
+{
+	float:left; 
+	margin-right: 20px;
+	margin-bottom:20px;
+}
+
+.formLabel 
+{
+    font-size:18px;
+    color:#5c008b;
+}
+
+.formField
+{
+    width:200px;
+    display:block;
+    border: 1px solid #999;
+    height: 25px;
+    padding-left:5px;
+    padding-top:2px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formError
+{
+    color:Red;
+}
+
+.formButton
+{
+    background:#0072CE; color:#fff; 
+    cursor:pointer;
+    padding:5px 10px; 
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px
+}
+
+.formResults 
+{
+    color:#5c008b;
+    font-size:21px;
+    font-weight:bold;
+}
+
+.requiredField 
+{
+    color:Red;
+}
+
+.formTextBox 
+{
+    width:250px;
+}
+
+.required
+{
+    width:250px;
+}
+
+/* 2013-10-31 msobczak */
+/*
+label.error {
+    color: #FF0000;
+    float: right;
+    padding-left: 10px;
+}
+*/
+
+tr 
+{
+    vertical-align:top;
+}
+
+
+
+/* --------------------------------------
+    Page specific styles 
+---------------------------------------*/
+
+/* --------------------------------------
+    your-healthcare-focus.aspx start
+---------------------------------------*/
+
+#focusBoxContainer 
+{
+    width:960px;
+}
+
+
+.focusBox
+{
+	width: 290px;
+	height:110px;
+	position: relative;	
+	border-left: 1px solid #7FB8E6;
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+
+#focusSpacer
+{
+   width: 293px;
+   height:120px;
+}
+
+.focusBoxTitle 
+{
+	padding-left:5px;
+	background-color:#EEEBF5;
+	height:28px;
+	font-size:18px;
+	color:#0072CE;
+	padding-top:2px;
+}
+
+.focusBoxTitleSmall 
+{
+    font-size: 12px;
+}
+
+
+.focusBoxText
+{
+	margin-left: 5px;
+    margin-top: 9px;
+    min-height: 59px;
+    position: relative;
+    width: 267px;
+}
+
+.focusBoxArrow
+{
+	left: 255px;
+    margin-right: -21px;
+    margin-top: -19px;
+    position: relative;
+    width: 21px;
+}
+
+/* --------------------------------------
+   default.aspx 
+---------------------------------------*/
+
+#homeImage 
+{
+    left:24px;
+    top:10px;
+    margin-right: -931px;
+    position: relative;
+    width: 931px;
+    height:274px;
+}
+
+#firstBar 
+{
+    background-color: #0072CE;
+    border-color: transparent;
+    border-style: none;
+    margin-left: -25px;
+    margin-top: 48px;
+    padding-bottom: 7px;
+    position: relative;
+    width: 311px;
+    height:42px;
+}
+
+#firstBarText 
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:60px;
+    padding-top:12px;
+}
+
+#secondBar 
+{
+    background-color: #5C068C;
+    border-color: transparent;
+    border-style: none;
+    margin-left: -25px;
+    margin-top: 10px;
+    padding-bottom: 6px;
+    position: relative;
+    width: 364px;
+    height:42px;
+}
+
+#secondBarText 
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:bold;
+    padding-left:60px;
+    padding-top:11px;
+}
+
+#thirdBar 
+{
+    background-color: #2E008B;
+    border-color: transparent;
+    border-style: none;
+    margin-left: -25px;
+    margin-top:10px;
+    padding-bottom: 9px;
+    position: relative;
+    width: 271px;
+    height:42px;
+}
+
+#thirdBarText 
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:bold;
+    padding-left:60px;
+    padding-top:11px;
+    font-style: normal;
+}
+
+#thirdBarText a
+{
+    color: #FFFFFF;
+}
+
+#homeArrow 
+{
+	position:absolute;
+	top:15px;
+	left:260px;
+}
+
+#featureContainer 
+{
+    width:960px;
+}
+
+#featureContainer h1
+{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+.featureBox 
+{
+    position: relative;
+    width: 293px;
+    float:left;
+    margin-right:20px;
+}
+
+.featureBoxSixtySix 
+{
+    position: relative;
+    width: 605px;
+    float:left;
+    margin-right:20px;
+}
+
+.featureBoxSixtySix h5 
+{
+   margin: 0;
+}
+
+.featureBoxTab 
+{
+    background-color: #0072CE;
+    color:#FFFFFF;
+    font-size:11px;
+    border-style: none;
+    padding-left: 4px;
+    position: relative;
+    width: 120px;
+    padding-top: 4px;
+}
+
+.featureBoxLine
+{
+    background-color: #0072CE;
+    border-color: transparent;
+    border-style: none;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    margin-bottom:20px;
+}
+
+
+#middleContainer
+{
+    width:920px;
+}
+
+.loginBox 
+{
+	width: 271px;
+	position: relative;	
+	display:inline-block;
+	padding:10px;
+	border-bottom: 1px solid #BEBFBF;
+	background-color: #FFFFFF;
+}
+
+.loginBoxLast
+{
+	width: 271px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	padding:10px;
+}
+
+
+#homeVideoLink
+{
+	position:relative;
+	float:left;
+	height:32px;
+	padding-top:30px;
+}
+
+#homeVideoImage 
+{
+	position:relative;
+	float:left;
+	padding-left:10px;
+	padding-top:19px;
+}
+
+#homeVideoImage a:hover 
+{
+	border-bottom:0;
+}
+
+#homeVideoLink a
+{
+	font: bold 16px Arial, Helvetica, sans-serif; 
+	color:#5c068c;
+}
+
+
+/* --------------------------------------
+    about-us.aspx
+---------------------------------------*/
+
+#aboutUsContainer 
+{
+    width:960px;
+}
+
+#aboutUsSubLeft
+{
+	width: 290px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+#aboutUsSubRight
+{
+	width: 600px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+/* --------------------------------------
+    upcoming-events.aspx
+---------------------------------------*/
+
+#eventsContainer 
+{
+    width:960px;
+}
+
+#eventsSubLeft
+{
+	width: 290px;
+	height:110px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+#eventsSubRight
+{
+	width: 290px;
+	height:110px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+/* --------------------------------------
+    customer-support.aspx
+---------------------------------------*/
+
+#customerSupportContainer 
+{
+    width:960px;
+}
+
+.customerSupportBox
+{
+	width: 267px;
+	height:360px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.customerSupport1pxBox
+{
+	width: 267px;
+	height:360px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	padding:10px;
+	/*border-color: #5C068C;
+    border-style: solid;
+    border-width: 1px;*/
+}
+
+
+.customerSupportBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.customerSupportBoxText
+{
+	margin-left: 5px;
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+.supportContainer 
+{
+	width:275px;
+	float:left;
+	padding-right:25px;
+}
+
+/* --------------------------------------
+    employer.aspx
+---------------------------------------*/
+
+#employerContainer 
+{
+    width:960px;
+}
+
+.employerBox
+{
+	width: 274px;
+	height:200px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.employerBox1pxBox
+{
+	width: 272px;
+	height:200px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	padding:10px;
+	border-color: #5C068C;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.employerBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.employerBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+/* --------------------------------------
+    government.aspx
+---------------------------------------*/
+
+#governmentContainer 
+{
+    width:960px;
+}
+
+.governmentBox
+{
+	width: 274px;
+	height:200px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.governmentBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.governmentBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+/* --------------------------------------
+   health-plan.aspx
+---------------------------------------*/
+
+#healthPlanContainer 
+{
+    width:960px;
+}
+
+.healthPlanBox
+{
+	width: 274px;
+	height:150px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.healthPlanBoxSpacer
+{
+	width: 274px;
+	height:150px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#FFFFFF;
+	padding:10px;
+}
+
+.healthPlanBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.healthPlanBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+/* --------------------------------------
+   hospital-management-decisions.aspx
+---------------------------------------*/
+
+#hospitalManagementContainer 
+{
+    width:960px;
+}
+
+.hospitalManagementBox
+{
+	width: 274px;
+	height:150px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.hospitalManagementBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.hospitalManagementBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+/* --------------------------------------
+   hospital-patient-care-decisions.aspx
+---------------------------------------*/
+
+#hospitalPatientContainer 
+{
+    width:960px;
+}
+
+.hospitalPatientBox
+{
+	width: 274px;
+	height:265px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.hospitalPatientBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.hospitalPatientBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+/* --------------------------------------
+   medicaid.aspx
+---------------------------------------*/
+
+#medicaidContainer 
+{
+    width:960px;
+}
+
+.medicaidBox
+{
+	width: 274px;
+	height:100px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.medicaidBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.medicaidBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}    
+
+
+/* --------------------------------------
+   pharma.aspx
+---------------------------------------*/
+
+#pharmaContainer
+{
+    width:960px;
+}
+
+.pharmaBox
+{
+	width: 274px;
+	height:250px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.pharmaBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.pharmaBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+/* --------------------------------------
+   research.aspx
+---------------------------------------*/
+
+#researchContainer
+{
+    width:960px;
+}
+
+.researchBox
+{
+	width: 274px;
+	height:120px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#EEEBF5;
+	padding:10px;
+}
+
+.researchBoxSpacer
+{
+	width: 274px;
+	height:120px;
+	position: relative;	
+	float: left;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#FFFFFF;
+	padding:10px;
+}
+
+.researchBoxTitle 
+{
+	color: #2E008B;
+    font-size: 15px
+}
+
+.researchBoxText
+{
+    margin-top: 9px;
+    position: relative;
+    width: 267px;
+}
+
+.researcher 
+{
+	padding:20px;
+}
+
+
+#videoContainer
+{
+    width:300px;
+    float: left;
+}
+
+#videoThreeContainer
+{
+    width:200px;
+    float: left;
+}
+
+
+
+
+
+.videoBox
+{
+	width: 274px;	
+	float: left;
+}
+
+#quoteContainer
+{
+    width:225px;
+    float:right;
+    border-left:1px solid #25282A;
+    border-spacing:10px;
+    padding:10px;
+    margin-left:10px;
+}
+
+
+.quoteBox
+{
+	width:199px;	
+	float:right;
+	border-spacing:10px;
+    padding:10px;
+	
+}
+
+
+/* --------------------------------------
+   About Us
+---------------------------------------*/
+
+.aboutUsHeadshot 
+{
+	float:left;
+	padding-right:10px;
+}
+
+.aboutUsText 
+{
+	width:450px;
+	padding-left:152px;
+}
+
+.ourCustomersText 
+{
+	width:500px;
+	height:90px;
+}
+
+.ourCustomersLogos 
+{
+	float:left;
+	padding-right:10px;
+	margin-bottom:20px;
+}
+
+.partnersLogo 
+{
+	padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.partnerLogoContainer 
+{
+	text-align:center;
+}
+
+/* --------------------------------------
+   Thought Leadership
+---------------------------------------*/
+
+#leadershipContainer
+{
+    width:275px;
+    height:475px;
+    float:left;
+    background-color:#FFFFFF;
+    border:border-width:2px;
+    margin:10px;
+}
+
+
+.leadershipBox
+{
+	width: 274px;	
+	float: left;
+	height: 475px;
+	position: relative;
+	display:inline-block;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-color:#E9EAEA;
+	padding:10px;
+	
+}
+
+#productsContainer
+{
+    width:300px;
+    height:2325px;
+    float: left;
+}
+
+
+.productsBox
+{
+	width: 274px;	
+	float: left;
+}
+
+
+/* --------------------------------------
+   In The News
+---------------------------------------*/
+
+.inNewsImage 
+{
+	float:left;
+	padding-right:16px;
+}
+
+
+
+.inNewsText 
+{
+	width:445px;
+	padding-left:160px;
+}
+
+/* --------------------------------------
+   Truven Insights
+---------------------------------------*/
+
+#insightsTopBlock 
+{
+	width:100%;
+	height:290px;
+	padding-top:20px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+#insightsImageBlock 
+{
+
+	width:171px;
+	height:231px;
+	padding-right:20px;
+	float:left;
+	position:relative;
+	left:-12px;
+	top:-12px;
+}
+
+#insightsPurpleBlockSmText 
+{
+	font-weight:normal;
+}
+
+#insightsTopBlockText 
+{
+	float:left;
+	position:relative;
+	width:375px;
+	padding-left:36px;
+}
+
+.insightsRow 
+{
+    margin-top:20px;
+	width:100%;
+	height:400px;
+	position:relative;
+}
+
+.insightsContainer 
+{
+	width:275px;
+	height:375px;
+	float:left;
+	padding-right:25px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.insightsContainer a
+{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.insightsContainer p a
+{
+	font-size: 12px;
+	font-weight:normal;
+}
+
+#NPRTopBlock 
+{
+	width:100%;
+	height:330px;
+	padding-top:20px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+#NPRTopBlockText 
+{
+	float:left;
+	position:relative;
+	width:375px;
+	padding-left:36px;
+}
+
+.NPRRow 
+{
+    margin-top:20px;
+	width:100%;
+	height:725px;
+	position:relative;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.NPRContainer 
+{
+	width:275px;
+	height:180px;
+	float:left;
+	padding-right:25px;
+}
+
+.NPRContainer a
+{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.NPRContainer p a
+{
+	font-size: 12px;
+	font-weight:normal;
+}
+
+
+
+
+
+
+
+
+#InsightsCalTopBlock 
+{
+	width:100%;
+	height:230px;
+	padding-top:20px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+#InsightsCalTopBlockText 
+{
+	float:left;
+	position:relative;
+	width:400px;
+	padding-left:5px;
+}
+
+
+#insightsCalImageBlock 
+{
+
+	width:161px;
+	height:231px;
+	padding-right:20px;
+	float:left;
+	position:relative;
+
+}
+
+
+/* ------new sixty six with banner at top-------*/
+
+#sixtySixSplitBanner 
+{
+	width:650px;
+	position:relative;
+	float:left;
+	margin-left:25px;
+}
+
+#sixtySixTextBanner 
+{
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 100px;
+    width: 615px;
+    min-height:725px;
+    overflow:hidden;
+    padding-bottom:20px;
+}
+
+#subPageImageContainerBanner 
+{
+	margin-top: 140px;
+    width: 650px;
+    height:250px;
+}
+
+#truvenBarsContainerBanner 
+{
+	margin-bottom: 121px;
+    margin-top: 142px;
+    position:absolute;
+    top:20px;
+    left:0;
+}
+
+#thirtyThreeSplitBanner 
+{
+	width:27%;
+	position:relative;
+	float:left;
+	margin-top:140px;
+	margin-left:10px;
+}
+
+.hrWhite 
+{
+    border-bottom: 2px solid #FFFFFF;
+    margin-bottom:10px;
+    position:relative;
+}
+
+#pbsCalculatorContainer 
+{
+    background-image: url('../images/pharmacyCalculatorBack.png');
+    background-repeat:no-repeat;
+    height:530px;
+}
+
+#pbsCalculator
+{
+    width:250px;
+    margin-left:85px;
+    padding-top:150px;
+}
+
+
+
+#miniContainer
+{
+    width:300px;
+    height:230px;
+    float: left;
+}
+
+#counterContainer 
+{
+    width:920px;
+    height:130px;
+    margin-left:25px;
+    font-size:30px;
+    color:#0072ce;
+    background-image: url('../images/fraudwaste_banner.png');
+    background-repeat:no-repeat;
+    background-color: #FFFFFF;
+}
+
+#counterAmmount
+{
+    padding-top:42px;
+    padding-left:175px;
+}
+
+/* --------------------------------------
+   CAB Section
+---------------------------------------*/
+
+.cabImage 
+{
+    height:100px;
+    float:left;
+    padding-right:20px;
+    margin-bottom:1000px;
+}
+
+.cabTitle 
+{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.cabCompany 
+{
+    font-weight:bold;
+}
+
+/* Used to display the web app title */
+#logoTitle {
+    color: #31088C;
+    font: bold 18px Arial,Helvetica,sans-serif;
+    left: 240px;
+    position: absolute;
+    top: 25px;
+    width: 200px;
+}
+
+/* used for page headers */
+#headline {
+    background-color: #2E078A;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+#headline h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: 0px !important;
+}

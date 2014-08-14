@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.2.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd">
+	
+
+<security:global-method-security secured-annotations="enabled">
+</security:global-method-security>
+
+<!-- access="isFullyAuthenticated()" -->
+<security:http auto-config='true' use-expressions="true" authentication-manager-ref="authenticationManager">
+	<security:intercept-url pattern="/secure.do" access="hasAnyRole('ROLE_TSH-SOLUCIENT-AMGENDEV','ROLE_TSH-SOLUCIENT-AMGENPROD')" />
+	<!--this tag requires the access to start with ROLE_ -->
+	
+	<security:form-login 
+			login-page="/login.do" 
+			authentication-failure-url="/login.do?login_error" 
+			username-parameter="user_param" 
+			password-parameter="pass_param" 
+			/>
+</security:http>
+
+<bean id="contextSource" class="org.springframework.ldap.core.support.LdapContextSource">
+	<property name="url" value="ldap://trvldap.truven.local:389" />
+	<property name="base" value="dc=truven,dc=local" />
+	<property name="userDn" value="CN=TRV-S-LDAPCdmOps,OU=Service Accounts,dc=truven,dc=local" />
+	<property name="password" value="ycW9RC57" />
+	<property name="pooled" value="true" />
+	<!-- AD Specific Setting for avoiding the partial exception error -->
+	<property name="referral" value="follow" />
+</bean>
+
+<bean id="ldapAuthenticationProvider" class="org.springframework.security.ldap.authentication.LdapAuthenticationProvider">
+	<constructor-arg>
+	<bean class="org.springframework.security.ldap.authentication.BindAuthenticator">
+		<constructor-arg ref="contextSource" />
+		<property name="userSearch">
+			<bean id="userSearch" class="org.springframework.security.ldap.search.FilterBasedLdapUserSearch">
+				<constructor-arg index="0" value="" />
+				<!-- <constructor-arg index="1" value="(sAMAccountName={0})" /> -->
+				<constructor-arg index="1" value="(userPrincipalName={0})" />
+				<constructor-arg index="2" ref="contextSource" />
+			</bean>
+		</property>
+	</bean>
+	</constructor-arg>
+	
+	<constructor-arg>
+	<bean class="org.springframework.security.ldap.userdetails.DefaultLdapAuthoritiesPopulator">
+		<constructor-arg ref="contextSource" />
+		<constructor-arg value="" />
+		<property name="groupSearchFilter" value="(member={0})" />
+		<property name="searchSubtree" value="true" />
+		
+		<!-- Below Settings convert the adds the prefix ROLE_ to roles returned
+		from AD -->
+		<property name="rolePrefix" value="ROLE_" />
+    	<property name="convertToUpperCase" value="true" />
+    	
+    	<property name="ignorePartialResultException">
+        	<value>false</value>
+    	</property>
+	</bean>
+	</constructor-arg>
+</bean>
+
+<bean id="inMemoryAuthenticationProvider" class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
+	<property name="userDetailsService" ref="userService" />
+</bean>
+
+    <security:user-service id="userService">
+        <security:user name="demo@truvenhealth.com" password="password" authorities="ROLE_TSH-SOLUCIENT-AMGENDEV" />
+    </security:user-service>
+
+
+<bean id="authenticationManager" class="org.springframework.security.authentication.ProviderManager">
+	<constructor-arg>
+		<list>
+			<ref local="inMemoryAuthenticationProvider" />
+			<ref local="ldapAuthenticationProvider" />
+		</list>
+	</constructor-arg>
+</bean>
+
+</beans> 

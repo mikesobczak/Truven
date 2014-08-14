@@ -1,0 +1,78 @@
+.topBorder
+{
+	width: 968px;
+	background-image: url("../images/page-sprite2.png");
+	overflow: hidden;
+	height: 4px;
+	background-position: left top;
+}
+
+.middleBorder
+{
+	background-image: url("../images/page-sprite2.png");
+	overflow: visible;
+	background-position: -968px top;
+	width: 968px;
+	float:left;
+}
+
+.bottomBorder
+{
+	background-image: url("../images/bottomDropShadowBar.png");
+}
+
+#page
+{
+	width: 968px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom:25px;
+}
+#middleContainer
+{
+    width:920px;
+}
+#thirtyThreeSplit 
+{
+	width:27%;
+	position:relative;
+	float:left;
+}
+#mainContent 
+{
+	width:73%;
+	position:relative;
+	float:left;
+	/*border: 1px solid black;*/
+}
+
+#mainContentArea 
+{
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+    width: 615px;
+    min-height:725px;
+    overflow:hidden;
+    padding-bottom:20px;
+    border: 1px solid black;
+}
+
+.position_content,.excludeFromNormalFlow /* used when child content is larger than parent */
+{
+	float: left;
+}
+.clearfix:after /* force a container to fit around floated items */
+{
+	content: "\0020";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.colelem /* a child element of a column */
+{
+	display: inline;
+	float: left;
+	clear: both;
+}

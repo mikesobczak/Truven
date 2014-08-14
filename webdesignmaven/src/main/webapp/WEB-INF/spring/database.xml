@@ -1,0 +1,61 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:property-placeholder location="WEB-INF/application.properties" />
+	 
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driverClassName}"/>
+		<property name="url" value="${jdbc.url}"/>
+		<property name="username" value="${jdbc.username}"/>
+		<property name="password" value = "${jdbc.password}"/>
+		<property name="initialSize" value="20" /> 
+		<property name="minIdle" value="5" />
+		<property name="maxActive" value="-1" /> 
+		<property name="maxIdle" value="20" />
+		<property name="maxWait" value="-1" />
+	</bean>
+			
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource">
+			<ref local="dataSource" />
+		</property>
+	</bean>
+
+	<bean id="logDao" class="com.truvenhealth.design.standard.dao.jdbc.LogDao">
+	
+		<property name="dataSource">
+			<ref local="dataSource" />
+		</property>
+	
+	</bean>
+	
+	<bean id="dataService" class="com.truvenhealth.design.standard.service.DataService">
+	
+		<property name="logDao">
+			<ref local="logDao" />
+		</property>
+		
+	</bean>
+	<!-- 
+	<bean id="camAlignmentDao" class="com.truvenhealth.design.standard.dao.jdbc.CamAlignmentDao">
+		<property name="dataSource">
+			<ref local="dataSource" />
+		</property>
+	</bean>
+	 -->
+	<bean id="camAlignmentDao" class="com.truvenhealth.design.standard.dao.mock.CamAlignmentDaoMock">
+	</bean>
+	
+	<bean id="camAlignmentDataService" class="com.truvenhealth.design.standard.service.CamAlignmentDataService">
+	
+		<property name="camAlignmentDao">
+			<ref local="camAlignmentDao" />
+		</property>
+		
+	</bean>
+
+</beans>
