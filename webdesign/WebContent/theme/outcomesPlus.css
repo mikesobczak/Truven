@@ -1,0 +1,162 @@
+#mainContent 
+{
+	width:73%;
+	position:relative;
+	float:left;
+	/*border: 1px solid black;*/
+}
+
+#mainContentArea 
+{
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+    width: 695px;
+    min-height:550px;
+    overflow:hidden;
+    padding-bottom:20px;
+    /*border: 1px solid black;*/
+}
+.buttonHolder
+{
+    text-align: left;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#mainContentArea input
+{
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+div#mainContentArea select
+{
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+div#mainContentArea input[type="checkbox"] + label
+{
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+div#mainContentArea input[type="checkbox"]
+{
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+label.checkboxLabel
+{
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+div#mainContentArea ul.formFields
+{
+        padding: 0;
+        -webkit-padding-start: 0px;
+        list-style-type: none;
+        /*display:table-row;*/
+}
+
+div#mainContentArea li.formFields 
+{
+    padding-bottom: 5px;
+    /*width: 280px;*/
+    /*display:table-cell;*/
+}
+
+div#mainContentArea label.fieldLabel
+{
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	padding-right:10px;
+	width: 150px;
+	float: left;
+	clear: both;
+}
+
+/* For jquery validation plugin */
+label.error {
+	font-family: Arial,"Segoe UI","Segoe",Tahoma,Helvetica,sans-serif;
+	font-size: 10pt;
+	color: #FF0000;
+    display: inline;
+    margin-left: 10px;
+    width: auto;
+    font-weight: bold;
+}
+
+div#mainContentArea a.bodyLink:hover
+{ color: #5C068C ;
+  background-color: transparent ;
+}
+li a:hover {
+  color: #5C068C ;
+  background-color: transparent ;
+
+}
+
+/* For the vertical menus */
+.menu-item-focus {
+	border: 1px solid #999999;
+	
+	/*background: #0072CE url("images/ui-bg_glass_75_0072CE_1x400.png") 50% 50% repeat-x;*/
+	/*background: #0072CE url("images/ui-bg_glass_65_0061AF_1x400.png") 50% 50% repeat-x;*/
+	background: #0061AF url("images/ui-bg_glass_65_0061AF_1x400.png") 50% 50% repeat-x;
+	
+	font-weight: normal;
+	color: #ffffff !important;
+}
+
+.reqField
+{
+    color: Red;
+    padding: 0px 5px; 
+    font-size: 12px;
+    width: 5px;
+    float: left;
+}
+
+.notReqField
+{
+    padding: 0px 5px; 
+    width: 5px;
+    float: left;
+}
+
+.checkboxListElement
+{
+	float: left;
+}
+
+.confirmation
+{
+	font: bold 12pt Arial, Helvetica, sans-serif; 
+	color:#5c068c; 
+	margin: 0 0 5px 0; 
+	padding-bottom:0;
+}
+
+/* This selector is used to remove the border from menus.  It overrides the jQuery theme. */
+.menu
+{
+	border: 0px solid #FFFFFF !important;
+}
+
